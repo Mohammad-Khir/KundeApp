@@ -7,14 +7,14 @@ Med denne applikasjonen kan du lagre all viktig informasjon om kundene dine på 
 Du kan raskt finne frem til en kunde, oppdatere informasjonen deres, legge til nye kunder, eller slette kunder som ikke lenger er aktuelle.
 I tillegg så kan kunden lage sin egen profil med brukernavn og passord, for å logge inn og ut.
 
-# Funksjonalitet
+## Funksjonalitet
 Kundeadministrasjon: Opprette, lese, oppdatere og slette kundedata.
 Databaselagring: Bruker en SQLite-database (Kunde.db) for å lagre kundeinformasjon.
 Logger: Opprettholder logger for systemaktiviteter i Logs-mappen.
 Testdekning: Inneholder enhetstester (KundeAppTest.cs) for å sikre kvalitet og pålitelighet i koden.
 Konfigurasjon: Applikasjonen støtter ulike miljøer ved hjelp av appsettings.json-filer.
 
-# Prosjektstruktur
+## Prosjektstruktur
 Controllers: Inneholder kontrollere som håndterer HTTP-forespørsler og styrer flyten i applikasjonen.
 DAL (Data Access Layer): Håndterer interaksjon med databasen, inkludert CRUD-operasjoner.
 Model: Definerer de ulike dataobjektene som brukes i applikasjonen, inkludert kundeentiteter.
@@ -24,5 +24,5 @@ Startup.cs: Konfigurerer applikasjonen ved oppstart, inkludert avhengighetsinjek
 Program.cs: Inngangspunktet for applikasjonen.
 appsettings.json: Konfigurasjonsfiler for forskjellige miljøer (produksjon, utvikling, etc.).
 
-# Testing
+## Testing
 Prosjektet inneholder enhetstester som kan kjøres ved hjelp av XUnit.
